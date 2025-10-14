@@ -1,0 +1,110 @@
+/* Fons general */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* centra horitzontalment */
+    align-items: center;     /* centra verticalment */
+    background-color: rgb(5, 4, 39);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Targeta centrada */
+  .card {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+  }
+  
+  /* Títol i subtítol */
+  h2 {
+    margin: 0 0 10px;
+    font-size: 1.6rem;
+    color: #111827;
+  }
+  
+  .subtitle {
+    margin: 0 0 20px;
+    font-size: 0.95rem;
+    color: #6b7280;
+  }
+  
+  /* Grup d’entrada */
+  .form-group {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 0.9rem;
+    color: #374151;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37,99,235,0.2);
+  }
+  
+  /* Botons */
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+  }
+  
+  button:hover {
+    background: #1d4ed8;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  /* Sortida */
+  #output {
+    text-align: left;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 12px;
+    min-height: 60px;
+    font-size: 0.95rem;
+    color: #111827;
+    white-space: pre-wrap;
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 15px;
+    font-size: 0.8rem;
+    color: #9ca3af;
+  }
+  
