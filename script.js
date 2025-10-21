@@ -1,4 +1,4 @@
-// --- Funció que descodifica de Xpp (cifrat) a Xp (primera descodificació) ---
+// --- Funció que descodifica de cifrat a Xp primera descodificació ---
 function descodificaXppAXp(missatgeCifrat) {
     const longitud = missatgeCifrat.length;
     let resultatArray = new Array(longitud); // array temporal per reconstruir X'
